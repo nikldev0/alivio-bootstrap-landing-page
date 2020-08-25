@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+html,
+body {
+  scroll-behavior: smooth;
+  transition: all 2s ease-in-out;
+}
+
+nav {
+  background: white;
+}
+
+#logo {
+  width: 100px;
+}
+
+.navbar {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav {
+  /* border: 2px solid red; */
+  position: relative;
+  top: 6px;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-item {
+  position: relative;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.nav-item:hover {
+  transform: translateY(-2px);
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.trial {
+  color: #ffffff;
+  background: #01996d;
+}
+
+#home-section {
+  background: url(/radu-florin-CwTBt6jyagQ-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: -30px -130px;
+  min-height: 700px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: 40px solid grey;
+}
+
+@media only screen and (max-width: 576px) {
+  #home-section {
+    background-position: -320px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #home-section {
+    background-position: -400px;
+  }
+}
+
+#home-section h1 {
+  color: #01996d;
+  font-weight: bold;
+  margin-top: 110px;
+}
+
+#home-section h1 span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#home-section .main-text {
+  color: rgb(0, 0, 0);
+}
+
+.trial2 {
+  color: #ffffff;
+  background: #01996d;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.trial2:hover {
+  transform: skew(-0.02turn, 5deg);
+  transition: all 0.2s ease-in-out;
+}
+
+#solutions-head-section p {
+  font-family: 'Lato', sans-serif;
+}
+
+#explore-head-section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#explore-head-section h1 {
+  color: #01996d;
+  font-weight: bold;
+}
+
+#explore-head-section p {
+  font-family: 'Lato', sans-serif;
+}
+
+#explore-head-section .secondportion {
+  border-top: 45px solid white;
+}
+
+#solutions-head-section {
+  background: #ffffff;
+  overflow: hidden;
+}
+
+#community-head-section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background: #01996d;
+}
+
+#community-head-section img {
+  border-radius: 2%;
+  /* margin-right: 10px; */
+}
+
+#main-footer {
+  background: #245852;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-footer button {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background: #01996d;
+}
+
+#main-footer button:hover {
+  transform: scale(1.02);
+}
+
+#pricing-section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #01996d;
+}
+
+#pricing-section h1 {
+  font-weight: bold;
+}
+
+#pricing-section p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+#contactModal {
+  font-family: 'Lato', sans-serif;
+}
+
+#contactModal .modal-footer button {
+  background: #01996d;
+  color: #ffffff;
+}
